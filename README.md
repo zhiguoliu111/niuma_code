@@ -129,7 +129,7 @@ Currently supports **Anthropic** (Claude Opus 4.8, Claude Sonnet 4). Single-sour
 
 - Anthropic API with streaming, retry, and cache control
 - Session-level model switching via `/model`
-- Single-source config: dev mode reads project-level, deploy mode reads user-level
+- Single-source config: `~/.niuma/settings.json`
 
 ---
 
@@ -275,14 +275,9 @@ JSON-based i18n system with automatic language file discovery from `app/i18n/loc
 
 ## Configuration Reference
 
-Config file selection (single source, not stacked):
+Config file path:
 
-| Mode | Path | Trigger |
-|------|------|---------|
-| Dev mode | `<project>/.niuma/settings.json` | CWD contains "niuma" and has `app/` + `app/core/` subdirectories |
-| Deploy mode | `~/.niuma/settings.json` | All other cases |
-
-**Exception**: `memory_palace` block uses project-level priority → user-level fallback.
+`~/.niuma/settings.json`
 
 <details>
 <summary><strong>factories — Anthropic API configuration</strong></summary>
