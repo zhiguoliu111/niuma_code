@@ -51,7 +51,7 @@ Models don't lack attention mechanisms — they lack placing attention where it 
 
 ### 1. Download
 
-Download [`niuma.exe`](https://niumacode.cn/download/niuma.exe) — no install needed. Supports Windows 10/11 version 1809+.
+Download [`niuma.exe`](https://niumacode.oss-cn-beijing.aliyuncs.com/releases/niuma.exe) — no install needed. Supports Windows 10/11 version 1809+.
 
 ### 2. Configure
 
@@ -482,7 +482,7 @@ Config file path:
 - **GitHub:** [github.com/zhiguoliu111/niuma_code](https://github.com/zhiguoliu111/niuma_code)
 - **Issues:** [github.com/zhiguoliu111/niuma_code/issues](https://github.com/zhiguoliu111/niuma_code/issues)
 - **Tutorials:** [niumacode.cn/tutorials](https://niumacode.cn/tutorials/)
-- **Download:** [niuma.exe](https://niumacode.cn/download/niuma.exe)
+- **Download:** [niuma.exe](https://niumacode.oss-cn-beijing.aliyuncs.com/releases/niuma.exe)
 
 ---
 
