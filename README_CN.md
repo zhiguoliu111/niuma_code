@@ -129,7 +129,7 @@ niuma.exe
 
 - Anthropic API 流式传输、重试、缓存控制
 - 会话级模型切换（`/model`）
-- 单一来源配置：开发模式读项目级，部署模式读用户级
+- 单一来源配置：`~/.niuma/settings.json`
 
 ---
 
@@ -275,14 +275,9 @@ niuma.exe
 
 ## 配置参考
 
-配置文件选择（单一来源，不叠加）：
+配置文件路径：
 
-| 模式 | 路径 | 触发条件 |
-|------|------|----------|
-| 开发模式 | `<项目>/.niuma/settings.json` | CWD 包含 "niuma" 且有 `app/` + `app/core/` 子目录 |
-| 部署模式 | `~/.niuma/settings.json` | 其他情况 |
-
-**例外**：`memory_palace` 块采用项目级优先 → 用户级回退的两层覆盖。
+`~/.niuma/settings.json`
 
 <details>
 <summary><strong>factories — Anthropic API 配置</strong></summary>
